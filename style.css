@@ -1,0 +1,449 @@
+body{
+
+	background: url('img/leaf.jpg') no-repeat center center fixed;
+	background-size: cover;
+	font-family: Arial;
+
+}
+
+nav{
+
+	width: 100% ;
+	height: 100px;
+	background-color: #4682B4;
+}
+
+
+ul{
+margin-left: 60px;
+
+
+}
+
+ul li{
+list-style: none;
+display: inline-block;
+float: left;
+line-height: 100px;
+}
+
+ul li a{
+text-decoration: none;
+font-size: 15px;
+font-family: Arial;
+font-weight: bold;
+color: LightGoldenrodYellow;
+text-transform: uppercase;
+padding: 0px 40px;
+display: block;
+
+}
+
+ul li a:hover{
+	border-bottom: 4px solid LightCyan;
+
+
+}
+
+.logo{
+
+	position: absolute;
+	left: 25px;
+	top: 30px;
+
+
+}
+
+.hey{
+
+    color: PaleTurquoise;
+	font-weight: bold;
+	font-family: monospace;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+
+
+}
+
+.up{
+
+	color: LightGoldenrodYellow;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Arial;
+	line-height: 10px;
+}
+
+.javaAboutme{
+    color: PaleTurquoise;
+    font-family: Arial;
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+}
+
+.javaContact{
+	color: PaleTurquoise;
+	font-family: Arial;
+	font-weight: bold;
+	width:900px;
+	background-color: rgb(0,0,0,0.6);
+	margin: auto;
+	padding: 10px 0px 10px 0px;
+	border-radius: 15px 15px 0px 0px;
+
+}
+
+
+.gender{
+
+	color: PaleTurquoise;
+}
+
+form{
+
+padding: 10px;
+
+}
+
+
+.firstname{
+
+	position: relative;
+	left: 50px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+}
+
+.lastname{
+
+	position: relative;
+	left: 60px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+}
+
+.mail{
+
+	position: relative;
+	left: 25px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+}
+
+.messageme{
+	position: relative;
+	left: 30px;
+	height: 40px;
+	width: 200px;
+	border-radius: 6px;
+	padding: 0 22px;
+
+}
+
+.state{
+
+	position: relative;
+	left: 150px;
+	bottom: 70px;
+	line-height: 40px;
+	border-radius: 6px;
+	padding: 0 22px;
+}
+
+.purpose{
+
+	position: relative;
+	bottom: 80px;
+}
+
+.email{
+
+	position: relative;
+	bottom: 90px; 
+}
+
+button{
+
+	background-color: white;
+	display: block;
+	margin: 20px 0px 0px 20px;
+	text-align: center;
+	border-radius: 12px;
+	padding: 14px 110px;
+	outline: none;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.25px;
+}
+
+button:hover{
+
+	background-color: PaleTurquoise;
+}
+
+.sub{
+
+	position: absolute;
+	bottom: 50px;
+}
+
+.res{
+
+	position: absolute;
+	bottom: 50px;
+	left: 550px;
+
+}
+
+.Ability{
+
+	color: PaleTurquoise ;
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial;
+
+}
+
+.paddington{
+
+	width: 540px;
+	height: 650px;
+	padding: 20px;
+	border: 1px;
+	margin-bottom: 15px;
+	background-color: rgba(0,0,0,0.6);
+    color: PaleTurquoise;   
+
+}
+
+.paddingtonACAD{
+
+    width: 700px;
+	height: 650px;
+	padding: 20px;
+	border: 1px;
+	margin-bottom: 15px;
+	background-color: rgba(0,0,0,0.6);
+    color: PaleTurquoise;  
+    position: absolute;
+    left: 600px; 
+    top: 245px;
+
+}
+
+.content-table{
+
+	margin: 40px 0px;
+	font-size: 12px;
+	min-width: 500px;
+	font-family: Arial;
+	font-weight: bold;
+	border-radius: 5px 5px 0 0;
+	position: absolute;
+    left: 610px; 
+    top: 340px;
+    width: 720px;
+	height: 450px;
+
+
+}
+
+.content-table thead tr{
+	background-color: #009879;
+	color: white;
+	text-align: center;
+
+}
+
+
+.content-table tbody td{
+
+	color: white;
+	border-bottom: 1px solid grey;
+	border: 1px solid grey;
+}
+
+.paddingSkill{
+
+    width: 540px;
+	height: 650px;
+	padding: 20px;
+	border: 1px;
+	margin-bottom: 15px;
+	background-color: rgba(0,0,0,0.6);
+	color: PaleTurquoise;
+
+}
+
+.checked{
+
+	color: DeepSkyBlue;
+}
+
+.paddingSkill span{
+
+    position: relative;
+	left: 10px;
+}
+
+.cv{
+
+    width: 700px;
+	height: 650px;
+	padding: 20px;
+	border: 1px;
+	margin-bottom: 15px;
+    color: PaleTurquoise;  
+    position: absolute;
+    left: 600px; 
+    top: 950px;
+}
+
+.resPic{
+
+	position: absolute;
+	right: 170px;
+}
+
+.btnD{
+
+	position: absolute;
+	bottom: 5px;
+	right: 220px;
+	background-color: LightGoldenrodYellow;
+    color: blue;
+    border: 3px;
+    border-radius: 30px;
+	text-align: center;
+	padding: 10px 32px;
+	cursor: pointer;
+	font-size: 20px;
+	height: 20px;
+	width: 220px;
+
+
+}
+
+.btnD:hover{
+
+	background-color: PaleTurquoise;  }
+
+.aqua{
+
+	width: 600px;
+	height: 400px;
+	padding: 5px;
+	border: 1px;
+	margin-bottom: 5px;
+	color: PaleTurquoise;
+	position: relative;
+	left: 50px;
+	top: 10px;
+	text-align: center;
+
+
+
+}
+
+.conj{
+
+	width: 600px;
+	height: 400px;
+	padding: 5px;
+	border: 1px;
+	margin-bottom: 5px;
+	color: PaleTurquoise;
+	position: relative;
+	left: 700px;
+	bottom: 405px;
+	text-align: center;
+}
+
+.purnama{
+
+	color: PaleTurquoise;
+	width: 600px;
+	height: 400px;
+	padding: 5px;
+	border: 1px;
+	position: relative;
+	left: 50px;
+	bottom: 200px;
+	text-align: center;
+
+}
+
+.everything{
+
+	color: PaleTurquoise;
+	width: 600px;
+	height: 400px;
+	padding: 5px;
+	border: 1px;
+	position: relative;
+	left: 700px;
+	bottom: 610px;
+	text-align: center;
+
+}
+.inner-footer{
+
+	margin: 0;
+	padding: 0;
+	
+}
+
+.social-links{
+
+	display: flex;
+}
+
+.social-links ul{
+    padding: 5px;
+	display: flex;
+	width: 300px;
+	height: 25px;
+	margin-left: 560px;
+ 
+}
+
+.social-items{
+
+	list-style: none;
+
+}
+
+.social-items a{
+
+	padding: 10px 20px;
+	font-size: 35px;
+	color: #AFEEEE;
+	transition: all .25s;
+
+}
+.social-items a:hover{
+
+	color: #FAFAD2;
+	border-bottom: none;
+}
+
+
+
+.outer-footer{
+
+	padding: 40px;
+	color: white;
+	font-size: 18px;
+    color: white;
+    margin-left: 360px; 
+    font-weight: bold;
+
+}
+
+
